@@ -39,7 +39,7 @@ DCSAdminBot/
 ## 🧱 1. Clone or Download the Project
 
 ```bash
-git clone https://github.com/yourusername/DCSAdminBot.git
+git clone https://github.com/TylerDOC1776/DCSAdminBot.git
 cd DCSAdminBot
 ```
 
@@ -64,15 +64,15 @@ To get your Discord channel ID:
 
 ---
 
-### `config/servers.json`
+### `config/servers.json`  <----can add more than 1 instance.
 
 ```json
 {
   "instances": {
     "southern": {
-      "name": "SouthernBBQ",
+      "name": "Servername",
       "exe": "C:\\Program Files\\Eagle Dynamics\\DCS World Server\\bin\\DCS_server.exe",
-      "log": "C:/Users/YOUR_USERNAME/Saved Games/SouthernBBQ/Logs/dcs.log"
+      "log": "C:/Users/YOUR_USERNAME/Saved Games/Servername/Logs/dcs.log"
     }
   }
 }
