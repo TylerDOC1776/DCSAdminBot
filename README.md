@@ -132,3 +132,22 @@ The bot will:
 ## 📜 License
 
 MIT License (or customize for your usage)
+
+
+---
+
+## ⚙️ Auto-Start Task Scheduler Setup
+
+A prebuilt XML file (`DCSAdminBot_Task.xml`) is included in the repo.
+
+It is configured to:
+- Launch `start_bot.bat` on user logon
+- Run with elevated privileges
+- Start both the PowerShell script (to start and sanitize all DCS instances) and the Python bot
+
+To import it:
+1. Open Task Scheduler
+2. Choose "Import Task"
+3. Select `DCSAdminBot_Task.xml`
+4. Set it to run as your user with highest privileges
+
