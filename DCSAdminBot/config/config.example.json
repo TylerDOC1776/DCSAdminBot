@@ -1,0 +1,5 @@
+{
+  "command_channel_id": YOUR_COMMAND_CHANNEL_ID,
+  "discord_webhook": "https://discord.com/api/webhooks/WEBHOOK_ID/WEBHOOK_TOKEN",
+  "discord_bot_token": "YOUR_DISCORD_BOT_TOKEN"
+}
