@@ -6,21 +6,53 @@ Welcome! You can control the DCS servers from this channel using these simple co
 
 ## ▶️ Start a Server
 ```
-!start southern
-!start memphis
-!start smokey
+!start alpha
+!start bravo
 ```
 
 ## 🛑 Stop a Server
 ```
-!stop southern
+!stop alpha
 ```
 
-## 🔁 Restart a Server or All
+## 🔁 Restart a Server, All, or Windows
 ```
-!restart memphis
+!restart bravo
 !restart all
 !restart windows  <-- Reboots the whole machine (admins only!)
+```
+
+## 🔒 Change Server Password
+```
+!changepass alpha
+!changepass all
+```
+
+## 📦 Upload a Mission File
+_Attach a `.miz` file and run:_
+```
+!loadmiz
+```
+
+## 📂 List Available Missions
+```
+!listmissions
+```
+
+## 🎯 Load a Specific Mission
+```
+!choose 2 alpha
+```
+
+## 🗑️ Delete a Mission from the List
+```
+!delete 2
+```
+
+## ♻️ Reset Persistence or Stats
+```
+!resetpersist alpha
+!resetstats alpha
 ```
 
 ## 📡 Check Server Status
@@ -33,7 +65,7 @@ Welcome! You can control the DCS servers from this channel using these simple co
 !clear
 ```
 
-## ❓ Help / Show Commands
+## ❓ Help / Show All Commands
 ```
 !help
 ```
