@@ -1,3 +1,10 @@
+> [!WARNING]
+> **This project is deprecated and no longer maintained.**
+> It has been replaced by [dcs-bullseye](https://github.com/TylerDOC1776/dcs-bullseye), a full rewrite with a proper REST API, RBAC, slash commands, multi-host support, and a hardened security model.
+> Please use that instead.
+
+---
+
 # 🎮 DCS Admin Bot
 
 Control and monitor your DCS World servers via Discord. Start, stop, update, or restart servers, manage missions, reset persistence/stats, and detect crashes — all from a bot.
